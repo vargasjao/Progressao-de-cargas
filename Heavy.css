@@ -1,0 +1,107 @@
+
+.login-page{
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: rgb(10, 10, 10);
+    justify-content: space-around;
+}
+
+.login-card{
+    border: 2px solid rgb(148, 4, 0);
+    border-radius: 40px;
+    background-color: rgb(48, 47, 47);
+    width: 30vw;
+    height: 60vh;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50% -50%);
+    position: absolute;
+    justify-content: center;
+    color: white;    
+}
+
+.form-floating1{
+    margin-top:  40px;;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.form-floating2{
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.login-button{
+    background-color: rgb(148, 4, 0);
+    color: rgb(168, 168, 168);
+    border-radius: 15%;
+    margin: 12vw;
+    margin-top: 5vh;
+    padding: 8px;
+    border-color: rgb(148, 4, 0);
+}
+
+.login-button:hover{
+    border-color:rgb(168, 168, 168);
+}
+
+.dumbbell{
+    width: 7vw;
+    height: 7vh;
+    margin-left: 11vw;
+    margin-top: 3vw;
+    color: rgb(148, 4, 0) !important;
+}
+
+.dumbbell-nav{
+    width: 5vw;
+    height: 5vh;
+    margin-bottom: 6px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    margin-left: -10px;
+}
+
+.bg-body-tertiary{
+    background-color: rgb(148, 4, 0) !important;
+    height: 9vh;
+}
+
+.nav-link{
+    margin-left: 34vw;
+    font-size: 22px;
+}
+
+.logo-background{
+    justify-content: center;
+    margin: 1px;
+    box-shadow: 10px;
+    
+}
+
+.right-block{
+    float: right;
+    max-width: 80%;
+}
+
+.left-block{
+    float: left;
+    max-width: 20%;
+    padding: 10px;
+    border: 1px solid white ;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    height: 100%;
+}
+
+.left-block li{
+    margin: 10px;
+    margin-bottom: 5vh;
+
+}
